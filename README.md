@@ -2,12 +2,13 @@
 
 [**Paper**](https://arxiv.org/abs/2608.29242) · [**Project Page**](https://xpeng-robotics.github.io/anyworld/) · [**中文说明**](README_zh-CN.md)
 
-<p align="center">
-  <a href="assets/anyworld_overview.mp4">
-    <img src="assets/anyworld_preview.gif" alt="AnyWorld overview" width="100%">
-  </a>
-</p>
-<p align="center"><b>▶ Click the preview to watch the full AnyWorld overview video</b></p>
+
+
+https://github.com/user-attachments/assets/0b01d6c4-f3cc-409c-aec7-90c116c74d6a
+
+
+
+
 
 ## Highlights
 
