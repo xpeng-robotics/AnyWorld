@@ -1,0 +1,73 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "anyworld-fastvideo"
+version = "1.0.0"
+description = "Inference code for the AnyWorld combined-control world model"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+]
+dependencies = [
+    "cloudpickle>=3.0",
+    "diffusers>=0.33.1",
+    "einops>=0.8",
+    "filelock>=3.13",
+    "huggingface-hub>=0.27",
+    "imageio==2.36.0",
+    "imageio-ffmpeg==0.5.1",
+    "numpy>=1.26",
+    "opencv-python>=4.8",
+    "packaging>=24.0",
+    "pillow>=10.3.0",
+    "psutil>=6.0",
+    "PyYAML==6.0.1",
+    "remote-pdb>=2.1.0",
+    "requests>=2.32.2",
+    "safetensors>=0.4.5",
+    "scipy==1.14.1",
+    "sentencepiece==0.2.0",
+    "tokenizers>=0.20.1",
+    "torch==2.7.1",
+    "torchvision",
+    "tqdm>=4.66",
+    "transformers>=4.46.1",
+]
+
+[project.scripts]
+fastvideo = "fastvideo.entrypoints.cli.main:main"
+
+[project.urls]
+Paper = "https://arxiv.org/abs/2608.29242"
+Project = "https://xpeng-robotics.github.io/anyworld/"
+
+[tool.setuptools.packages.find]
+exclude = ["csrc*", "examples*", "scripts*"]
+
+[tool.uv]
+prerelease = "allow"
+
+[tool.uv.sources]
+torch = [
+  { index = "pytorch-cpu", marker = "sys_platform != 'linux'" },
+  { index = "pytorch-cu128", marker = "sys_platform == 'linux'" },
+]
+torchvision = [
+  { index = "pytorch-cpu", marker = "sys_platform != 'linux'" },
+  { index = "pytorch-cu128", marker = "sys_platform == 'linux'" },
+]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true

@@ -1,0 +1,45 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv*/
+dist/
+build/
+*.egg-info/
+
+# Models, data, and outputs
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.bin
+checkpoint-*/
+/checkpoints/
+/data/
+/datasets/
+/outputs/
+/results/
+/runs/
+/wandb/
+/swanlab/
+/logs/
+
+# Generated media and manifests
+generation_manifest.jsonl
+manifest_rank*.csv
+launcher_/logs/
+_first_frames/
+
+# Editors
+.vscode/
+.idea/
+.DS_Store

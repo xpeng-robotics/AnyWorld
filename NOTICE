@@ -1,0 +1,15 @@
+AnyWorld
+
+This release includes modified portions of FastVideo
+(https://github.com/hao-ai-lab/FastVideo) and DiffSynth-Studio
+(https://github.com/modelscope/DiffSynth-Studio), both distributed under the
+Apache License 2.0.
+
+The FastVideo-derived inference code is located under world_model/.
+The DiffSynth-Studio-derived image fine-tuning entry point is located at
+image_editing/training/train.py. Modified source files carry an AnyWorld
+modification notice and retain applicable upstream SPDX identifiers.
+
+Qwen-Image-Edit-2511, Wan2.1, and all model checkpoints are not vendored in
+this repository. Their respective model licenses apply when users download or
+use them.

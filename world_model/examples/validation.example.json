@@ -1,0 +1,20 @@
+{
+  "data": [
+    {
+      "episode": "example_0001",
+      "caption": "In a kitchen, an IRON humanoid robot lifts a banana.",
+      "image_path": "/absolute/path/to/edited_first_frame.png",
+      "control_video_path": "/absolute/path/to/skeleton_control.mp4",
+      "state_camera_extrinsic_path": "/absolute/path/to/world_to_camera.npy",
+      "camera_fx": 736.6339,
+      "camera_fy": 736.6339,
+      "camera_cx": 960.0,
+      "camera_cy": 540.0,
+      "camera_orig_width": 1920,
+      "camera_orig_height": 1080,
+      "camera_xi": null,
+      "camera_dist": null,
+      "spatial_preprocess": "center_crop_resize"
+    }
+  ]
+}

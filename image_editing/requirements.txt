@@ -1,0 +1,5 @@
+google-genai>=1.21.0
+numpy>=1.26
+Pillow>=10.3.0
+python-dotenv>=1.0.0
+tqdm>=4.66

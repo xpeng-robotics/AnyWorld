@@ -1,0 +1,71 @@
+cff-version: 1.2.0
+message: "If you use AnyWorld, please cite our paper."
+title: "AnyWorld: Factorized Egocentric World Models for Cross-Embodiment Generalization"
+type: software
+version: 1.0.0
+date-released: 2026-08-29
+url: "https://xpeng-robotics.github.io/anyworld/"
+license: Apache-2.0
+authors:
+  - family-names: Chen
+    given-names: Cheng
+  - family-names: Bai
+    given-names: Jerry
+  - family-names: Wei
+    given-names: Jiacheng
+  - family-names: Chen
+    given-names: Boyu
+  - family-names: Zheng
+    given-names: Xiaoji
+  - family-names: Wu
+    given-names: Fan
+  - family-names: Yang
+    given-names: Minghao
+  - family-names: Chen
+    given-names: Tianrun
+  - family-names: Li
+    given-names: Ruibo
+  - family-names: Yue
+    given-names: Xiaoyu
+  - family-names: Guo
+    given-names: Xiaoyang
+  - family-names: Ge
+    given-names: Yixiao
+  - family-names: Lin
+    given-names: Guosheng
+  - family-names: Liu
+    given-names: Fayao
+preferred-citation:
+  type: article
+  title: "AnyWorld: Factorized Egocentric World Models for Cross-Embodiment Generalization"
+  year: 2026
+  url: "https://arxiv.org/abs/2608.29242"
+  authors:
+    - family-names: Chen
+      given-names: Cheng
+    - family-names: Bai
+      given-names: Jerry
+    - family-names: Wei
+      given-names: Jiacheng
+    - family-names: Chen
+      given-names: Boyu
+    - family-names: Zheng
+      given-names: Xiaoji
+    - family-names: Wu
+      given-names: Fan
+    - family-names: Yang
+      given-names: Minghao
+    - family-names: Chen
+      given-names: Tianrun
+    - family-names: Li
+      given-names: Ruibo
+    - family-names: Yue
+      given-names: Xiaoyu
+    - family-names: Guo
+      given-names: Xiaoyang
+    - family-names: Ge
+      given-names: Yixiao
+    - family-names: Lin
+      given-names: Guosheng
+    - family-names: Liu
+      given-names: Fayao
